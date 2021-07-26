@@ -1,0 +1,251 @@
+@media screen and (max-width: 1147px) {
+    .logo {
+        margin: -4px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .advantages {
+        padding: 0;
+        .in {
+            padding: 0;
+        }
+    }
+    .advantages-item {
+        padding: 0 5px;
+        .in {
+            padding: 30px 15px;
+        }
+        h3 {
+            font-size: 19px;
+        }
+    }
+    .products {
+        padding: 20px 0 550px;
+        h2 {
+            font-size: 35px;
+            margin: 14px 0 40px;
+        }
+    }
+    .products-list {
+        padding: 0;
+    }
+    .products-item {
+        width: 49%;
+        padding: 35px 40px;
+    }
+    .products-details {
+        padding: 40px 0 0;
+    }
+    .details-info {
+        margin: 0 0 70px;
+    }
+    .cooperation {
+        padding: 45px 0 20px;
+        margin: 0 0 35px;
+        li {
+            margin: 0 0 20px;
+        }
+    }
+    .blue-bg {
+        h2 {
+            font-size: 35px;
+        }
+        .btn-green {
+            margin: 3px 0 0;
+        }
+    }
+    .presentation {
+        padding: 50px 0 372px;
+    }
+    .form {
+        height: 380px;
+        .in {
+            padding: 0 0 70px;
+        }
+    }
+    .footer-links {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-right {
+        margin: 0;
+    }
+    .btn-check-in {
+        margin: 0 10px;
+    }
+    .btn-text {
+        margin: 0 10px;
+    }
+    .main {
+        p {
+            font-size: 16px;
+        }
+        h1 {
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+    .advantages-item {
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 0;
+        .in {
+            height: 165px;
+        }
+    }
+    .products {
+        padding: 0 0 30px;
+        &:after {
+            display: none;
+        }
+        h2 {
+            font-size: 25px;
+            line-height: 35px;
+            margin: 5px 0 25px;
+        }
+    }
+    .products-item {
+        width: 100%;
+        padding: 30px 20px;
+        margin: 0 0 20px;
+    }
+    .details-info {
+        padding: 0 0px 40px 25px;
+        margin: 0 0 50px;
+        li {
+            margin: 0 0 20px;
+            font-size: 18px;
+        }
+        img {
+            position: relative;
+            float: right;
+            width: 35%;
+        }
+        h3 {
+            font-size: 23px;
+            line-height: 30px;
+            margin: 30px 0 31px 7px;
+        }
+    }
+    .cooperation {
+        padding: 45px 0 85px;
+        li {
+            height: auto;
+            &::after {
+                top: 0;
+            }
+        }
+    }
+    .blue-bg {
+        .btn-green {
+            float: none;
+            position: absolute;
+            left: 52px;
+            bottom: -80px;
+        }
+    }
+    .form {
+        .in {
+            top: -265px;
+            padding: 0 0 41px;
+        }
+    }
+    .form-left {
+        display: none;
+    }
+    .form-right {
+        width: 100%;
+    }
+    .col {
+        width: 100%;
+    }
+    .footer-info {
+        padding: 13px 0 30px;
+    }
+    .copyright {
+        .in {
+            padding: 0;
+            text-align: center;
+        }
+    }
+    .footer-links {
+        margin: 15px auto 0;
+        float: none;
+    }
+    .presentation {
+        .in {
+            padding: 0 40px;
+        }
+    }
+    .popup {
+        width: 100%;
+        h2 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .presentation {
+        .in {
+            padding: 0;
+        }
+    }
+    .blue-bg {
+        .btn-green {
+            left: 20px;
+        }
+        h2 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    .main {
+        h1 {
+            font-size: 28px;
+            line-height: 45px;
+        }
+    }
+    .cooperation {
+        .in {
+            padding: 0;
+        }
+    }
+    .form {
+        .wrapper {
+            padding: 0;
+        }
+    }
+    .form-right {
+        padding: 41px 20px 0 20px;
+    }
+    .copyright {
+        padding: 10px 0;
+        p {
+            font-size: 12px;
+        }
+    }
+    .subcol {
+        width: 100%;
+    }
+    .btn-text {
+        display: block;
+        margin: 0 10px 10px;
+        text-align: right;
+    }
+    .btn-check-in {
+        padding: 0;
+        background: none;
+        &:hover {
+            color: #00CCA6;
+            background: none;
+        }
+        &::after {
+            width: 0;
+        }
+    }
+}

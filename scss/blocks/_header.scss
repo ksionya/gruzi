@@ -1,0 +1,49 @@
+.header {
+    padding: 19px 0 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.logo {
+    float: left;
+    margin: -4px 0 0 -17px;
+}
+
+.header-right {
+    float: right;
+    margin: 0 16px 0 0;
+}
+
+.btn-check-in {
+    display: inline-block;
+    padding: 15px 52px 15px 25px;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 20px;
+    &::after {
+        content: '';
+        background: url('/images/svg/arr-right.svg') no-repeat;
+        width: 12px;
+        height: 10px;
+        position: absolute;
+        top: 21px;
+        right: 25px;
+    }
+}
+
+.btn-text {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 21px;
+    &:hover {
+        color: #00CCA6;
+    }
+}

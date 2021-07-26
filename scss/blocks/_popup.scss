@@ -1,0 +1,68 @@
+.popup {
+    background: #F3FFFD;
+    border-radius: 5px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: none;
+    width: 350px;
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin: 10px 0 30px;
+    }
+    label {
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    input {
+        display: block;
+        width: 100%;
+        margin: 10px 0 10px;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        padding: 10px 21px 10px;
+        background: #F9F9F9;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 5px;
+        &:focus {
+            border: 1px solid #00CCA6;
+        }
+    }
+    .btn-green {
+        border-radius: 5px;
+    }
+}
+
+.popup_in {
+    text-align: center;
+    margin: 45px 0 0;
+}
+
+.fancybox-slide--html {
+    .fancybox-close-small {
+        padding: 5px;
+    }
+}
+
+.btn-password {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-decoration: none;
+    margin: 15px 0 25px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
