@@ -26,7 +26,7 @@
     margin: 0 20px;
     &::after {
         content: '';
-        background: url('/images/svg/arr-right.svg') no-repeat;
+        background: url('./../images/svg/arr-right.svg') no-repeat;
         width: 12px;
         height: 10px;
         position: absolute;
